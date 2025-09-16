@@ -1,6 +1,6 @@
 /* Variables CSS pour faciliter les modifications */
 :root {
-    --primary-color: #007bff;
+    --primary-color: #979696;
     --secondary-color: #6c757d;
     --background-color: #f8f9fa;
 }
@@ -19,7 +19,6 @@ body {
 
 header {
     background-color: var(--primary-color);
-    color: white;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -30,4 +29,13 @@ header {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
 }
