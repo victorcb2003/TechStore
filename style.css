@@ -27,3 +27,7 @@ header {
 }
 
 /* Styles à personnaliser par chaque étudiant */
+
+a {
+    text-decoration: none;
+}
