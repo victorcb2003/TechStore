@@ -39,3 +39,26 @@ nav a {
     color: white;
     margin: 0 1rem;
 }
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+.produit {
+    background-color: white;
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
